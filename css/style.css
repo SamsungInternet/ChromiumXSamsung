@@ -66,3 +66,17 @@ footer{
     justify-content: center;
     margin: 2em;
 }
+
+@media (max-width: 800px) {
+    .main-grid{
+        grid-template-columns: repeat(auto-fill, minmax(46%, 1fr));
+
+    }
+}
+
+@media (max-width: 500px) {
+    .main-grid{
+        grid-template-columns: repeat(auto-fill, minmax(90%, 1fr));
+
+    }
+}
