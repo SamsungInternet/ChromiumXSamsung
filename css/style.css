@@ -17,7 +17,7 @@ header{
 }
 
 .logo{
-    width: 20em;
+    width: 22em;
 }
 
 .main-grid{
@@ -70,13 +70,21 @@ footer{
 @media (max-width: 800px) {
     .main-grid{
         grid-template-columns: repeat(auto-fill, minmax(46%, 1fr));
+    }
 
+    .logo{
+        width: 18em;
+        display: block;
+        margin: auto;
     }
 }
 
 @media (max-width: 500px) {
     .main-grid{
         grid-template-columns: repeat(auto-fill, minmax(90%, 1fr));
+    }
 
+    .logo{
+        width:13em;
     }
 }
